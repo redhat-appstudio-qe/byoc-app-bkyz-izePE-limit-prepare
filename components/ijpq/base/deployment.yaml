@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: ijpq
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-xszc-tenant/byoc-app-bkyz/ijpq@sha256:df6a958a5cde1c8e1795d45027f23d1a8b09abde7c5742de358ceb597b3b724b
         name: my-java-quarkus
         ports:
         - containerPort: 8081
